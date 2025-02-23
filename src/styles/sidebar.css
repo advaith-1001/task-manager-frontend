@@ -1,0 +1,28 @@
+.sidebar {
+    background-color: var(--primary-blue);
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 100dvh;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+.inter-sidebar-link {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    color: var(--background-light);
+    padding: 1.2rem;
+    font-size: 1rem;
+    padding-left: 3.7rem;
+    text-decoration: none;
+  }
+
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+  }

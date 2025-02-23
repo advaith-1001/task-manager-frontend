@@ -1,0 +1,52 @@
+.home-ctr {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    background-image: url(../assets/intersecting-waves-split.svg);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.branding{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+.brand-name {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 3rem;
+    font-style: normal;
+    padding-left: 100px;
+}
+
+.tagline {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-style: normal;
+    padding-left: 100px;
+}
+
+.login-ctr {
+    flex: 1;
+    height: 400px;
+    background-color: white;
+}
+
+.login-btn {
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 100px;
+    background-color: var(--primary-blue);
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.categories-sidebar-ctr {
+    display: flex;
+}
+
+.categories-ctr {
+    flex: 1;
+}

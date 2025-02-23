@@ -1,0 +1,52 @@
+.navbar {
+    background-color: var(--primary-blue);
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-logout-ctr {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.prodo-link {
+  text-decoration: none;
+}
+
+.inter-btn {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--error-red);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--background-light);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+
+
+.inter-brand-name {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--background-light);
+    padding: 1.2rem;
+    font-size: 2rem;
+    padding-left: 3.7rem;
+  }
+
+  .inter-generic {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--background-light);
+  }

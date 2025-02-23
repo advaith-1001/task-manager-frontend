@@ -1,0 +1,56 @@
+.taskcard {
+    background-color: var(--background-light);
+    height: 200px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem;
+    border-radius: 9px;
+    border: 2px solid var(--border-gray);
+}
+
+.inter-task-name {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    color: var(--text-dark);
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .inter-due-at {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--text-gray);
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+
+  .buttons-ctr {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn {
+    margin: 1rem;
+    padding: 0.4rem;
+    background-color: var(--background-light);
+    border: none;
+    cursor: pointer;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+  }
+
+  .taskcard-link {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .clock-ctr {
+    border: solid 3px red;
+  }
+

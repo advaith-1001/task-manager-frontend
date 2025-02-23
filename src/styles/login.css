@@ -1,0 +1,82 @@
+.login {
+    border: solid var(--border-gray) 3px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    width: 500px;
+    height: 550px;
+    justify-content: space-around;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.login-header {
+    font-size: 1.5rem;
+}
+
+.login-ctr{
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;  /* Centers vertically */
+    height: 100vh;
+    background-color: var(--background-light);
+}
+
+.email-inp {
+    width: 300px;
+    height: 40px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: solid var(--border-gray) 3px;
+}
+
+.password-inp {
+    width: 300px;
+    height: 40px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: solid var(--border-gray) 3px;
+}
+
+.login-btn {
+    background-color: var(--primary-blue);
+    padding: 0.75rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: var(--background-light);
+    cursor: pointer;
+}
+
+.new-usr-p{
+    font-size: 1rem;
+}
+
+.new-usr-a {
+    color: var(--primary-blue);
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.register {
+    border: solid var(--border-gray) 4px;
+    padding: 2rem;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    border-radius: 13px;
+}
